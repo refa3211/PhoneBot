@@ -1,0 +1,9 @@
+[Unit]
+Description=bot python
+
+[Service]
+ExecStart=bash /test.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
